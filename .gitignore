@@ -1,0 +1,7 @@
+.env
+data/raw/
+data/qdrant_storage/
+data/processed/*.npy
+__pycache__/
+.DS_Store
+logs/

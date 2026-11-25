@@ -1,0 +1,57 @@
+{
+  "full_corpus": {
+    "3.12": {
+      "segments": 57571,
+      "translated_pct": 92.5,
+      "docs": 512
+    },
+    "3.13": {
+      "segments": 65564,
+      "translated_pct": 82.9,
+      "docs": 533
+    },
+    "3.14": {
+      "segments": 69061,
+      "translated_pct": 73.6,
+      "docs": 551
+    },
+    "total_segments": 192196
+  },
+  "indexed_subset": {
+    "3.12": {
+      "segments": 33612,
+      "translated_pct": 93.8,
+      "docs": 328,
+      "chunks": 6553,
+      "avg_chunk_chars": 748
+    },
+    "3.13": {
+      "segments": 37290,
+      "translated_pct": 83.4,
+      "docs": 329,
+      "chunks": 7524,
+      "avg_chunk_chars": 756
+    },
+    "3.14": {
+      "segments": 37996,
+      "translated_pct": 75.3,
+      "docs": 337,
+      "chunks": 7565,
+      "avg_chunk_chars": 758
+    }
+  },
+  "cross_version": {
+    "3.12->3.13": {
+      "segments_identical_pct": 83.1,
+      "segments_new_or_modified": 6300,
+      "translated_pct_new_or_modified": 18.5,
+      "translated_pct_unchanged": 96.6
+    },
+    "3.13->3.14": {
+      "segments_identical_pct": 90.5,
+      "segments_new_or_modified": 3602,
+      "translated_pct_new_or_modified": 0.0,
+      "translated_pct_unchanged": 83.2
+    }
+  }
+}

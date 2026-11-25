@@ -1,0 +1,86 @@
+{
+  "overall": {
+    "n": 127,
+    "gold_recall_at_8": 0.606,
+    "gold_mrr": 0.359,
+    "gold_doc_in_top8": 0.969,
+    "top1_from_other_version": 0.559,
+    "top1_misaligned": 0.315,
+    "any_misaligned_in_top8": 0.874,
+    "mean_frac_same_version_top8": 0.359,
+    "mean_ver_w": 0.896
+  },
+  "version_parse_accuracy": 1.0,
+  "by_pair": {
+    "3.12->3.13": {
+      "n": 49,
+      "gold_recall_at_8": 0.633,
+      "gold_mrr": 0.406,
+      "gold_doc_in_top8": 1.0,
+      "top1_from_other_version": 0.551,
+      "top1_misaligned": 0.245,
+      "any_misaligned_in_top8": 0.878,
+      "mean_frac_same_version_top8": 0.362,
+      "mean_ver_w": 0.918
+    },
+    "3.13->3.14": {
+      "n": 78,
+      "gold_recall_at_8": 0.59,
+      "gold_mrr": 0.329,
+      "gold_doc_in_top8": 0.949,
+      "top1_from_other_version": 0.564,
+      "top1_misaligned": 0.359,
+      "any_misaligned_in_top8": 0.872,
+      "mean_frac_same_version_top8": 0.357,
+      "mean_ver_w": 0.882
+    }
+  },
+  "by_target": {
+    "anterior": {
+      "n": 33,
+      "gold_recall_at_8": 0.758,
+      "gold_mrr": 0.516,
+      "gold_doc_in_top8": 1.0,
+      "top1_from_other_version": 0.606,
+      "top1_misaligned": 0.394,
+      "any_misaligned_in_top8": 0.939,
+      "mean_frac_same_version_top8": 0.333,
+      "mean_ver_w": 0.885
+    },
+    "nueva": {
+      "n": 94,
+      "gold_recall_at_8": 0.553,
+      "gold_mrr": 0.304,
+      "gold_doc_in_top8": 0.957,
+      "top1_from_other_version": 0.543,
+      "top1_misaligned": 0.287,
+      "any_misaligned_in_top8": 0.851,
+      "mean_frac_same_version_top8": 0.368,
+      "mean_ver_w": 0.9
+    }
+  },
+  "by_gold_language": {
+    "gold_mayoritariamente_es": {
+      "n": 83,
+      "gold_recall_at_8": 0.747,
+      "gold_mrr": 0.489,
+      "gold_doc_in_top8": 0.964,
+      "top1_from_other_version": 0.542,
+      "top1_misaligned": 0.313,
+      "any_misaligned_in_top8": 0.88,
+      "mean_frac_same_version_top8": 0.364,
+      "mean_ver_w": 0.908
+    },
+    "gold_mayoritariamente_en": {
+      "n": 44,
+      "gold_recall_at_8": 0.341,
+      "gold_mrr": 0.114,
+      "gold_doc_in_top8": 0.977,
+      "top1_from_other_version": 0.591,
+      "top1_misaligned": 0.318,
+      "any_misaligned_in_top8": 0.864,
+      "mean_frac_same_version_top8": 0.349,
+      "mean_ver_w": 0.872
+    }
+  }
+}

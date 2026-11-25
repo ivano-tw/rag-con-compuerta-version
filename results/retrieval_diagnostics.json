@@ -1,0 +1,55 @@
+{
+  "n": 127,
+  "version_parse_accuracy": 1.0,
+  "gold_recall_at_k": 0.6062992125984252,
+  "gold_mrr": 0.3586801649793776,
+  "top1_from_other_version": 0.5590551181102362,
+  "top1_misaligned": 0.31496062992125984,
+  "mean_frac_same_version_topk": 0.359251968503937,
+  "label_distribution": {
+    "correct": 69,
+    "no_answer": 40,
+    "wrong_version": 14,
+    "incorrect": 4
+  },
+  "label_by_target": {
+    "3.12->3.13|3.12": {
+      "correct": 7,
+      "incorrect": 0,
+      "no_answer": 2,
+      "wrong_version": 2
+    },
+    "3.12->3.13|3.13": {
+      "correct": 25,
+      "incorrect": 1,
+      "no_answer": 12,
+      "wrong_version": 0
+    },
+    "3.13->3.14|3.13": {
+      "correct": 8,
+      "incorrect": 1,
+      "no_answer": 3,
+      "wrong_version": 10
+    },
+    "3.13->3.14|3.14": {
+      "correct": 29,
+      "incorrect": 2,
+      "no_answer": 23,
+      "wrong_version": 2
+    }
+  },
+  "suf_sufficient_rate": 0.6377952755905512,
+  "suf_sufficient_rate_when_wrong_version": 0.8571428571428571,
+  "token_usage": {
+    "claude-haiku-5-5": {
+      "calls": 247,
+      "input_tokens": 793996,
+      "output_tokens": 35904
+    },
+    "claude-opus-5-5": {
+      "calls": 372,
+      "input_tokens": 1117780,
+      "output_tokens": 91066
+    }
+  }
+}
